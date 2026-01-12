@@ -1,0 +1,1 @@
+enqueue_compss   --lang=python   --python_interpreter=/scratch/cenapadrjsd/rafael.terra2/conda-env/bin/python   --queue=sequana_cpu   --num_nodes=22   --exec_time=15   --log_dir=$PWD   --pythonpath=$(pwd)   main.py --inputs inputs/
